@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "sidebar main"
+  "footer footer";
+  grid-template-columns: 450px 1fr;
+}
+
+header {
+  grid-area: header; 
+  z-index: 1000;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar; 
+  text-align: center;
+}
+
+footer {
+  grid-area: footer;
+}
+
+body {
+  text-align: center;
+}
+
+  ul {
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
